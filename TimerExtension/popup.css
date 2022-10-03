@@ -1,0 +1,13 @@
+
+
+body {
+  width:400px;
+  height:400px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+h1{
+  color:blue;
+  text-align: center;
+  font-family: DejaVu Sans Mono, monospace
+}
