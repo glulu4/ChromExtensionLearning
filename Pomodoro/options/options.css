@@ -1,0 +1,30 @@
+h1{
+  color: floralwhite;
+  text-align: center;
+  font-size: xxx-large;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #f08081
+
+}
+
+#time-option{
+  border: none;
+  outline: none;
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px /* gives the round edges */
+}
+
+#save-button{
+  border: none;
+  outline: none;
+  padding: 7px;
+  font-weight: 500;
+  display: block;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,94 @@
+body{
+  height: 400px;
+  width: 350px;
+  background-color: #ffe4c4;
+
+
+}
+
+/* .header selects the class  */
+.header{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  background-color: palevioletred;
+  margin: -8px;
+  padding: 7px;
+}
+
+ #time{ /*selecting by id */
+  text-align: center;
+  font-family: monospace;
+  margin: 20px;
+  font-size: 25px;
+}
+
+#task-container{
+  display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.task-input{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 4px; /* added more space in the textbox */
+  padding: 5px 10px 5px 10px;  /* goes top, then right, then bottom ... added more space  */
+  width: 250px;
+}
+
+.task-delete{
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 3px;
+  color: black;
+  font-weight: 600;
+}
+
+
+.button-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+/* CSS */
+.buttons{
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.buttons:hover {
+  background-color: #f7fafa;
+}
+
+.buttons:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
